@@ -14,7 +14,7 @@ app.get("/", function(req, res){
 //  https://openweathermap.org/weather-conditions
 app.post("/", function(req, res){
   query = req.body.myCityName;
-  const apiKey = "4f6e4dbf5ae96ffc416d5c7abc4a258b";
+  const apiKey = "<myAPIkey>";
   const units = "imperial";
   const url = "https://api.openweathermap.org/data/2.5/forecast?id=524901&APPID="+apiKey+"&q="+query+"&units="+units;
 
